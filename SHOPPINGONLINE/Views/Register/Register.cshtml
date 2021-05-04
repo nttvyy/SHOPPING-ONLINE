@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<section class="header_text sub">
+    <img class="pageBanner" src="~/Contents/themes/images/pageBanner.png" alt="New products">
+    <h4><span>Đăng nhập hoặc Đăng ký</span></h4>
+</section>
+<section class="main-content">
+    <div class="row">
+        <div class="span5">
+            <h4 class="title"><span class="text"><strong>Đăng nhập</strong></span></h4>
+            <form action="#" method="post">
+                <input type="hidden" name="next" value="/">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label">Tên đăng nhập</label>
+                        <div class="controls">
+                            <input type="text" placeholder="" id="username" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Mật khẩu</label>
+                        <div class="controls">
+                            <input type="password" placeholder="" id="password" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <input tabindex="3" class="btn btn-inverse large" type="submit" value="Đăng nhập vào tài khoản">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="span7">
+            <h4 class="title"><span class="text"><strong>Đăng ký</strong></span></h4>
+            <form action="#" method="post" class="form-stacked">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label">Tên đăng nhập</label>
+                        <div class="controls">
+                            <input type="text" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Mật khẩu</label>
+                        <div class="controls">
+                            <input type="password" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Nhập lại mật khẩu</label>
+                        <div class="controls">
+                            <input type="password" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Họ và tên </label>
+                        <div class="controls">
+                            <input type="text" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label">Địa chỉ email</label>
+                        <div class="controls">
+                            <input type="text" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Số điện thoại </label>
+                        <div class="controls">
+                            <input type="number" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Địa chỉ </label>
+                        <div class="controls">
+                            <input type="text" placeholder="" class="input-xlarge">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Tỉnh thành </label>
+                        <div class="controls">
+                            <select class="custom-select">
+                                <option selected>Chọn tỉnh thành</option>
+                                <option value="1">TP HCM</option>
+                                <option value="2">Hà Nội</option>
+                                <option value="3">Vũng Tàu</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Quận/Huyện </label>
+                        <div class="controls">
+                            <select class="custom-select">
+                                <option selected>Chọn</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="actions"><input tabindex="9" class="btn btn-inverse large" type="submit" value="Tạo tài khoản"></div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</section>
+
